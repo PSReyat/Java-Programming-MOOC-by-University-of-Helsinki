@@ -1,0 +1,2 @@
+MyClass
+JavaApplication1
