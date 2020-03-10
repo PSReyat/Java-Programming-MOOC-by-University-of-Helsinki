@@ -37,7 +37,7 @@ public class HangmanLogic {
         while(true){
             //The problem is that the condition of the if statement is faulty in its logic.
             //The object doesn't recognise characters of the word individually, it only recognises the word as a whole.
-            //Solved it motherbitch. The 'contains' method is case sensitive. The entered letters weren't capitalised so they all ended up being false.
+            //Solved it. The 'contains' method is case sensitive. The entered letters weren't capitalised so they all ended up being false.
             letter = letter.toUpperCase();
             if(this.word.contains(letter)){
                 if(this.guessedLetters.contains(letter)){
